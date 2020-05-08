@@ -2,8 +2,6 @@ import React from 'react'
 
 import BarberCard from './BarberCard'
 
-import data from '../../../db-dev/data.json'
-
 class BarberList extends React.Component {
   state = { barbers: [], length: 0 }
 
