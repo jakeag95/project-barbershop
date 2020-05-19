@@ -5,10 +5,9 @@ export const getEmployees = () => dispatch => {
   console.log('GET EMPLOYEES ACTION');
 
   axios
-    .get('/api/employees')
+    .get('/employees')
     .then(res => {
-      console.log(res.data)
+      console.log(res)
       dispatch({ type: GET_EMPLOYEES, payload: res.data})
     })
 }
-

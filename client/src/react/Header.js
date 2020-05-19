@@ -1,12 +1,10 @@
 import React from 'react'
-
-const HEADER_TITLE = 'the made up'
-const HEADER_SUB = 'barbershop'
+import TopNavbar from './components/TopNavbar';
 
 const Header = () => {
   return (
-    <div className='Header-Container'>
-
+    <div>
+      <TopNavbar />
     </div>
   )
 }

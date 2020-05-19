@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client', 'build')));
 
-app.use('/api/employees', EmployeeRoutes);
+app.use('/employees', EmployeeRoutes);
 
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
