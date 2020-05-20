@@ -15,7 +15,6 @@ import Typography from '@material-ui/core/Typography';
 
 const BarberCard = props => {
   const { employee } = props;
-  let employeeImage = faker.image.avatar();
 
   return (
     // <Card
@@ -41,7 +40,7 @@ const BarberCard = props => {
 <Card>
 <CardActionArea>
   <CardMedia
-    src={employeeImage}
+    // src={employeeImage} the employee profile pic will go here e.g. employee.avatar
     title="Contemplative Reptile"
   />
   <CardContent>

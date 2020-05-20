@@ -16,8 +16,6 @@ const Background = styled.div`
   background-position: center;
 `;
 
-
-
 function LandingPage() {
   //const dispatch = useDispatch();
   const [employees, setEmployees] = useState(null);
