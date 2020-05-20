@@ -32,10 +32,8 @@ function LandingPage() {
 
   return (
     <div>
-      <Background>
         <h1>Barber Harbor</h1>
         <BarberList employees={employees}/>
-      </Background>
     </div>
   );
 }
