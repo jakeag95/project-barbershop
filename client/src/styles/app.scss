@@ -4,11 +4,11 @@
 $side-margins: 10rem;
 $vertical-margins: 3rem;
 
-// .App {
-//   margin: $vertical-margins $side-margins;
-//   border: thin;
-// }
+.App {
+  margin: 0 $side-margins;
+  border: thin;
+}
 
-// body {
-//   background-color: whitesmoke;
-// }
+body {
+  background-color: whitesmoke;
+}

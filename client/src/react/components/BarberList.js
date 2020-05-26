@@ -8,7 +8,9 @@ const Container = styled.div`
   padding: 5rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
+  background-color: blue;
 `;
 
 const BarberList = props => {
