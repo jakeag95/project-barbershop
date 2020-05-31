@@ -30,7 +30,7 @@ const BarberProfile = (props) => {
   if(employee !== null) {
     return(
       <div>
-        <h1>{employee.name}'s Profile</h1>
+        <h1>{employee.name}</h1>
         <p>{employee.bio}</p>
         <Button type='primary' onClick={() => props.history.goBack()}>Go Back</Button>
       </div>

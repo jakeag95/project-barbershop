@@ -35,7 +35,7 @@ class TopNavbar extends React.Component {
           </Menu.ItemGroup>
         </SubMenu>
         <Menu.Item key="login">
-            Login
+        <Link to={'/login'}>Login</Link>
         </Menu.Item>
       </Menu>
     );
