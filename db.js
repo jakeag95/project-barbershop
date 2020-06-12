@@ -7,7 +7,6 @@ const connection = mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopo
 
 connection
     .then(db => {
-        console.log(db);
         return db;
     }).catch(err => {
         console.log("ERROR UTIL/db.js", err);

@@ -8,6 +8,7 @@ exports.getAllEmployees = (req, res) => {
             error: err
           });
         }
+      console.log('employees: ', employees);
       res.json(employees);
       });
 }
